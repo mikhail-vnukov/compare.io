@@ -1,0 +1,44 @@
+<head>
+	<title>Todos!</title>
+</head>
+
+<body>
+	<div id="main-pane">
+		{{> scores}}
+	</div>
+</body>
+
+<template name="scores">
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+				{{#each comparables}}
+					<th>{{this.title}}</th>
+				{{/each}}
+			</tr>
+		</thead>
+		<tbody>
+			{{#each differences}}
+				<tr>
+					<td>
+						{{this.title}}
+					</td>
+					{{#superhelper comparables}}
+					
+					{{/superhelper}}
+
+				</tr>
+			{{/each}}
+			<tr>
+				<td colspan="{{comparables.length}}">
+					<div id="new-todo-box">
+						<input type="text" id="new-todo" placeholder="New item" />
+					</div>
+				</td>
+			</tr>	
+		</tbody>
+	</table>
+	
+</template>
+
