@@ -23,6 +23,8 @@ var okCancelEvents = function (selector, callbacks) {
 };
 
 var activateInput = function (input) {
-	input.focus();
-	input.select();
+	if (input !== undefined && input !== null) {
+		input.focus();
+		input.select();
+	}
 };

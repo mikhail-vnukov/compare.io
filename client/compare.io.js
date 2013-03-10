@@ -16,15 +16,11 @@ Template.scores.differences = function () {
 	return models.fetch();
 };
 
-editing_diff = function (comparable, feature) {
-  	var sessionObject = Session.get('editing_difference');
-  	if (sessionObject !== undefined) {
-		console.log("E " + comparable.title + ":" + feature.title);
-		console.log("A " + sessionObject.comparable + ":" + sessionObject.feature);
-	}
+editingDiff = function (comparable, feature) {
+  	var sessionObject = Session.get('editingDifference');
   	return sessionObject !== undefined 
-	  	&& comparable.title === sessionObject.comparable 
-	  	&& sessionObject.feature === feature.title;
+	  	&& comparable._id === sessionObject.comparable 
+	  	&& sessionObject.feature === feature._id;
 };
 
 Template.scores.helpers({
@@ -34,10 +30,10 @@ Template.scores.helpers({
 		for(var i=0, j=comparables.length; i<j; i++) {
 			var comparable = comparables[i];
 			ret = ret + options.fn({
-				comparable: comparable.title, 
-				feature: this.title, 
-				value: comparable[this.title],
-				editing: editing_diff(comparable, this)
+				comparable: comparable._id, 
+				feature: this._id, 
+				value: comparable[this._id],
+				editing: editingDiff(comparable, this)
 			});
 		}
 		return ret;
@@ -46,7 +42,7 @@ Template.scores.helpers({
 
 Template.scores.events({
 	'click .addtag': function (evt, tmpl, currentTarget) {
-		Session.set('editing_difference', this);
+		Session.set('editingDifference', this);
 		Meteor.flush(); // update DOM before focus
 		activateInput(tmpl.find("#edittag-input"));
 	}
