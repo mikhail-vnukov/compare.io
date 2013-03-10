@@ -1,0 +1,571 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"containerHe",
+				"containerHeight"
+			],
+			[
+				"container",
+				"containerheight"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border-ima",
+				"border-image-source"
+			],
+			[
+				"bak",
+				"background"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"sea",
+				"search-input"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"na",
+				"nav-item"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"stop",
+				"stopI"
+			],
+			[
+				"ha",
+				"half1"
+			],
+			[
+				"sup",
+				"superList1"
+			],
+			[
+				"su",
+				"superList2"
+			],
+			[
+				"super",
+				"superList2"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"superM",
+				"superMap2"
+			],
+			[
+				"q",
+				"quater3"
+			],
+			[
+				"qu",
+				"quater1"
+			],
+			[
+				"ce",
+				"centerY"
+			],
+			[
+				"sta",
+				"stars"
+			],
+			[
+				"fo",
+				"fore	for (each)"
+			],
+			[
+				"star",
+				"starEntry"
+			],
+			[
+				"par",
+				"parseStarDataString"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server/model.js",
+			"settings":
+			{
+				"buffer_size": 447,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/meteor.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git: ad",
+				"Git: Add Current File"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"ini",
+				"Git: Init"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package c",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Snippet: cl",
+				"Snippet: class"
+			],
+			[
+				"Snippet: ma",
+				"Snippet: method (main)"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 167.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/hh/Projects/compare.io/compare.io.sublime-project",
+		"/Users/hh/Projects/compare.io/.meteor/local/build/app/server/model.js",
+		"/Users/hh/Projects/compare.io/server/compare.io.sublime-project",
+		"/Users/hh/Documents/Message.webarchive",
+		"/Users/hh/Library/Application Support/Sublime Text 2/Packages/User/meteor.sublime-build",
+		"/Users/hh/Projects/diploma/css/media.css",
+		"/Users/hh/Projects/diploma/css/style.css",
+		"/Users/hh/Projects/diploma/css/music.css",
+		"/Users/hh/Projects/diploma/video.html",
+		"/Users/hh/Projects/diploma/photo.html",
+		"/Users/hh/Projects/diploma/music.html",
+		"/Users/hh/Projects/diploma/news.html",
+		"/Users/hh/Projects/diploma/css/news.css",
+		"/Users/hh/Projects/diploma/css/index.css",
+		"/Users/hh/Projects/diploma/js/main.js",
+		"/Users/hh/Projects/diploma/index.html",
+		"/Users/hh/Projects/diploma/js/galleria/themes/classic/galleria.classic.js",
+		"/Users/hh/Projects/diploma/js/galleria/galleria-1.2.8.js",
+		"/Users/hh/Projects/diploma/js/player.js",
+		"/Users/hh/Projects/diploma/js/GGS.js",
+		"/Users/hh/Projects/wallpaer/demo.html",
+		"/Users/hh/Projects/wallpaer/music.html",
+		"/Users/hh/Projects/wallpaer/js/GGS.js",
+		"/Users/hh/Projects/wallpaer/video.html",
+		"/Users/hh/Projects/wallpaer/css/style.css",
+		"/Users/hh/Projects/wallpaer/raw resources/background.html",
+		"/Users/hh/Projects/color pyramid/index.html",
+		"/Users/hh/Projects/color pyramid/index.css",
+		"/Users/hh/Projects/color pyramid/index.js",
+		"/Users/hh/Projects/wallpaer/background.html",
+		"/Users/hh/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/hh/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/hh/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/hh/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/hh/Projects/Interviewstreet/stars/Solution.java",
+		"/Users/hh/Projects/Interviewstreet/stars/input",
+		"/Users/hh/Projects/Interviewstreet/stars/center",
+		"/Users/hh/Projects/Interviewstreet/stars/half2",
+		"/Users/hh/Projects/Interviewstreet/stars/superList1",
+		"/Users/hh/Projects/Interviewstreet/stars/weight",
+		"/Users/hh/Projects/Interviewstreet/stars/half1",
+		"/Users/hh/Projects/Interviewstreet/stars/	at Solution.solve(Solution.java",
+		"/Users/hh/Library/Application Support/Sublime Text 2/Packages/Java/java.sublime-build",
+		"/Users/hh/Documents/build_java.sh",
+		"/Users/hh/Library/Application Support/Sublime Text 2/Packages/Java/sout.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+			"client/**,server/**,-.meteor/**",
+			"client/**,server/**",
+			"-.meteor/**",
+			"-.meteor",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1",
+			"hello",
+			"Meteor.startup",
+			"todos",
+			"autop",
+			"lists",
+			"bootstrap",
+			"ProductArr",
+			"round",
+			"footer",
+			"Фото",
+			"image",
+			"counter",
+			"-counter",
+			"galleria-counter",
+			"\\.layer",
+			"layer",
+			"_videoTest",
+			"_video",
+			"med",
+			"news",
+			"cop",
+			"#9F0",
+			"#96AEBE",
+			"demo.html",
+			"data",
+			"					<img width=\"586px\" src=\"images/interview.jpg\"></jpg> \n",
+			"float",
+			"sec",
+			".site",
+			"ggs-guide",
+			"//	",
+			"setHeights",
+			"content",
+			"setHeights",
+			"background",
+			"дщп",
+			"icons",
+			"nav-item",
+			"div",
+			"383441",
+			"120px",
+			"2s",
+			"0.2s",
+			"box-shadow",
+			" 2s",
+			"0.0.2",
+			"linear linear",
+			"2s",
+			": .*;",
+			"0.2",
+			"where",
+			">\n",
+			"f\"",
+			"navigation-item",
+			"</li>",
+			"<li>",
+			"a",
+			"			\n",
+			"figure",
+			"X",
+			"	document.getElementById(\"figure\").offsetX = x\n",
+			"onmousemove",
+			"{\n",
+			"\"\n",
+			"int",
+			"superMap1",
+			"				",
+			"getMassCenter",
+			"half2",
+			"println",
+			"System",
+			"static",
+			"void",
+			"BufferedReader",
+			"c"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"header",
+			"photos",
+			"#0cf",
+			"#9F0",
+			"index.html",
+			"date",
+			"body",
+			"site",
+			"images/icons",
+			"_nav-item_",
+			"li",
+			"0.2s",
+			"2s",
+			"-webkit-box-shadow",
+			" 0.2s",
+			"0.2",
+			"linear",
+			"0.2s linear",
+			"2s linear",
+			": color 2s, box-shadow 2s, background-color 2s;",
+			"2",
+			"\"><a href",
+			"				<div class=\"sector\"><a href=\"#\" class=\"nav-item\">Музыка</a></div>\n",
+			"				<div class=\"sector\"><a href=\"#\" class=\"nav-item\">Музыка</a></div>\n				<div class=\"sector\"><a href=\"#\" class=\"nav-item\">Фото</a></div>\n				<div class=\"sector\"><a href=\"#\" class=\"nav-item\">Видео</a></div>\n				<div class=\"sector\"><a href=\"#\" class=\"nav-item\">О нас</a></div>\n",
+			">\n",
+			"}\n",
+			"sector",
+			"",
+			"div",
+			"Y",
+			"	document.getElementById(\"figure\").offsetX = x\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server/model.js",
+					"settings":
+					{
+						"buffer_size": 447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 303.0
+	},
+	"output.find_results":
+	{
+		"height": 393.0
+	},
+	"output.git":
+	{
+		"height": 193.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"/Users/hh/Projects/color pyramid/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 411.0,
+	"status_bar_visible": true
+}
