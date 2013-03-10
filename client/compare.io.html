@@ -25,7 +25,19 @@
 						{{this.title}}
 					</td>
 					{{#superhelper comparables}}
-					
+						<td class="addtag">
+							{{#if editing}}
+								<div class="tag edittag">
+				          			<input type="text" id="edittag-input" value="" />
+				       			</div>
+							{{else}}
+								{{#if value}}
+									{{value}}
+								{{else}}
+									N/A
+								{{/if}}
+							{{/if}}
+						</td>
 					{{/superhelper}}
 
 				</tr>

@@ -16,27 +16,37 @@ Template.scores.differences = function () {
 	return models.fetch();
 };
 
+editing_diff = function (comparable, feature) {
+  	var sessionObject = Session.get('editing_difference');
+  	if (sessionObject !== undefined) {
+		console.log("E " + comparable.title + ":" + feature.title);
+		console.log("A " + sessionObject.comparable + ":" + sessionObject.feature);
+	}
+  	return sessionObject !== undefined 
+	  	&& comparable.title === sessionObject.comparable 
+	  	&& sessionObject.feature === feature.title;
+};
+
 Template.scores.helpers({
-	"superhelper" : function(context, block) {
+	"superhelper" : function(comparables, options) {
 		var ret = "";
 
-		for(var i=0, j=context.length; i<j; i++) {
-			if(!context[i][this.title]) {
-				ret += "<td>N/A</td>"
-			} else {
-				ret = ret + "<td>" + context[i][this.title] + "</td>";				
-			}
-
+		for(var i=0, j=comparables.length; i<j; i++) {
+			var comparable = comparables[i];
+			ret = ret + options.fn({
+				comparable: comparable.title, 
+				feature: this.title, 
+				value: comparable[this.title],
+				editing: editing_diff(comparable, this)
+			});
 		}
-
-		return ret + "";
+		return ret;
 	} 
 });
 
-
 Template.scores.events({
-	'click .addtag': function (evt, tmpl) {
-		Session.set('editing_addtag', this._id);
+	'click .addtag': function (evt, tmpl, currentTarget) {
+		Session.set('editing_difference', this);
 		Meteor.flush(); // update DOM before focus
 		activateInput(tmpl.find("#edittag-input"));
 	}
