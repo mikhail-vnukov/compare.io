@@ -32,7 +32,7 @@ Template.scores.helpers({
 			ret = ret + options.fn({
 				comparable: comparable._id, 
 				feature: this._id, 
-				value: comparable[this._id],
+				value: comparable.features === undefined ? undefined : comparable.features[this._id],
 				editing: editingDiff(comparable, this)
 			});
 		}
@@ -48,13 +48,16 @@ Template.scores.events({
 	}
 });
 Template.scores.events(okCancelEvents(
-	'#new-todo',
+	'#edittag-input',
 	{
 		ok: function (text, evt) {
-			var tag = Session.get('tag_filter');
-			Differences.insert({
-				title: text,
-			});
-			evt.target.value = '';
+			var addFeature = "features." + this.feature;
+			var comparable = Comparables.findOne(this.comparable);
+			comparable.features = comparable.features || {};
+			comparable.features[this.feature] = text;
+			Comparables.update(this.comparable, comparable);
+			evt.target.value = text;
+			Session.set('editingDifference', undefined);
+			Meteor.flush();
 		}
 	}));
