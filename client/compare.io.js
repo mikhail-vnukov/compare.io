@@ -43,7 +43,7 @@ Template.scores.helpers({
 Template.scores.events({
 	'click .addtag': function (evt, tmpl, currentTarget) {
 		Session.set('editingDifference', this);
-		Meteor.flush(); // update DOM before focus
+		Meteor.flush();
 		activateInput(tmpl.find("#edittag-input"));
 	}
 });
@@ -51,7 +51,6 @@ Template.scores.events(okCancelEvents(
 	'#edittag-input',
 	{
 		ok: function (text, evt) {
-			var addFeature = "features." + this.feature;
 			var comparable = Comparables.findOne(this.comparable);
 			comparable.features = comparable.features || {};
 			comparable.features[this.feature] = text;
